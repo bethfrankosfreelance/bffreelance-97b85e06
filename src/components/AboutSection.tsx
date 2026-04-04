@@ -1,7 +1,16 @@
+import headshot from "@/assets/headshot.jpg";
+
 const AboutSection = () => {
   return (
     <section className="py-28 md:py-36 px-6">
       <div className="max-w-3xl mx-auto text-center">
+        <div className="mb-10 flex justify-center">
+          <img
+            src={headshot}
+            alt="Beth Frankos"
+            className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover shadow-lg ring-4 ring-background"
+          />
+        </div>
         <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6">
           About
         </p>
