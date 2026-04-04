@@ -1,4 +1,5 @@
 import { Instagram, Mail, Calendar, Facebook, FileText } from "lucide-react";
+import logoFooter from "@/assets/logo-footer.jpg";
 
 const links = [
   { icon: Instagram, href: "https://www.instagram.com/beth.frankos?igsh=MXR4bHh6a3BhYzk4bw==", label: "Instagram" },
@@ -18,6 +19,7 @@ const FooterSection = () => {
         <p className="font-body text-primary-foreground/70 mb-10 text-sm max-w-md mx-auto">
           Ready to get your operations under control? Book a free 15-minute call or send me a message.
         </p>
+        <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-48 mx-auto mb-10" />
         <div className="flex items-center justify-center gap-6 mb-14">
           {links.map(({ icon: Icon, href, label }) => (
             <a
