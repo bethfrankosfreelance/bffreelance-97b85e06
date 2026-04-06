@@ -1,6 +1,5 @@
 import { Instagram, Mail, Calendar, Facebook, FileText } from "lucide-react";
 import { Link } from "react-router-dom";
-import logoFooter from "@/assets/logo-footer.jpg";
 
 const links = [
   { icon: Instagram, href: "https://www.instagram.com/beth.frankos?igsh=MXR4bHh6a3BhYzk4bw==", label: "Instagram" },
@@ -43,7 +42,7 @@ const FooterSection = () => {
           ))}
         </div>
         <div className="border-t border-primary-foreground/10 pt-8">
-          <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-36 mx-auto mb-4 rounded-[25%]" />
+          
           <p className="font-body text-xs text-primary-foreground/50 tracking-wide">
             © {new Date().getFullYear()} Beth Frankos Freelance LLC. All rights reserved.
           </p>
