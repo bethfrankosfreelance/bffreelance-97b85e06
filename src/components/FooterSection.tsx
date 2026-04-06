@@ -1,6 +1,6 @@
 import { Instagram, Mail, Calendar, Facebook, FileText } from "lucide-react";
+import { Link } from "react-router-dom";
 import logoFooter from "@/assets/logo-footer.jpg";
-import PayPalButton from "@/components/PayPalButton";
 
 const links = [
   { icon: Instagram, href: "https://www.instagram.com/beth.frankos?igsh=MXR4bHh6a3BhYzk4bw==", label: "Instagram" },
