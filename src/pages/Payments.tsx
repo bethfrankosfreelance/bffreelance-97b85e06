@@ -1,6 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import PayPalButton from "@/components/PayPalButton";
+import bethHeadshot from "@/assets/beth-headshot.jpg";
 
 const Payments = () => {
   return (
