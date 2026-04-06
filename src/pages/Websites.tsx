@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Check, Globe, Palette, Shield } from "lucide-react";
 import FooterSection from "@/components/FooterSection";
 
@@ -51,6 +53,17 @@ const tiers = [
 ];
 
 const Websites = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 100);
+      }
+    }
+  }, [hash]);
+
   return (
     <main>
       {/* Hero */}
@@ -97,7 +110,7 @@ const Websites = () => {
       </section>
 
       {/* Tiers */}
-      <section className="py-28 md:py-36 px-6 bg-secondary/50">
+      <section id="packages" className="py-28 md:py-36 px-6 bg-secondary/50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6">

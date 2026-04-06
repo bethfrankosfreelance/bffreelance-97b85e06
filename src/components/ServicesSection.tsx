@@ -115,7 +115,7 @@ const ServicesSection = () => {
         </div>
         <div className="text-center mt-12">
           <Link
-            to="/websites"
+            to="/websites#packages"
             className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
           >
             View Website Packages
