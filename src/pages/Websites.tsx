@@ -34,6 +34,7 @@ const tiers = [
   },
   {
     title: "Managed Webmaster Plan",
+    price: "$200/mo",
     tagline: "For businesses that want someone to handle the website for them.",
     icon: Shield,
     features: [
@@ -45,6 +46,7 @@ const tiers = [
       "Ongoing webmaster support",
     ],
     bestFor: "Owners who do not want to manage the website themselves.",
+    note: "Available exclusively for existing and prior website customers.",
   },
 ];
 
