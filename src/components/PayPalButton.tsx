@@ -28,9 +28,6 @@ const PayPalButton = () => {
 
   return (
     <div className="w-full max-w-sm mx-auto">
-      <p className="text-sm font-body tracking-[0.2em] uppercase text-primary-foreground/60 mb-4 text-center">
-        Make a Payment
-      </p>
       <div ref={containerRef} />
     </div>
   );
