@@ -113,6 +113,14 @@ const ServicesSection = () => {
             <ServiceCard key={tier.title} tier={tier} />
           ))}
         </div>
+        <div className="text-center mt-12">
+          <Link
+            to="/websites"
+            className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+          >
+            View Website Packages
+          </Link>
+        </div>
       </div>
     </section>
   );
