@@ -1,6 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import PayPalButton from "@/components/PayPalButton";
+import bethHeadshot from "@/assets/beth-headshot.jpg";
 
 const Payments = () => {
   return (
@@ -19,6 +20,7 @@ const Payments = () => {
 
       <main className="flex-1 flex items-center justify-center px-6 py-16">
         <div className="max-w-md w-full text-center">
+          <img src={bethHeadshot} alt="Beth Frankos" className="w-32 h-32 rounded-full object-cover mx-auto mb-8" />
           <h1 className="text-3xl md:text-4xl font-display font-medium mb-4 text-foreground">
             Make a Payment
           </h1>
