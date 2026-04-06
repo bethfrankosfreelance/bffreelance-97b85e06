@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Check, Globe, Palette, Shield } from "lucide-react";
 import FooterSection from "@/components/FooterSection";
 
