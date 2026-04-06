@@ -13,6 +13,13 @@ const HeroSection = () => {
         <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6 animate-fade-in-up">
           Welcome
         </p>
+        <div className="flex justify-center mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <img
+            src={headshot}
+            alt="Beth Frankos"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg ring-4 ring-background"
+          />
+        </div>
         <h1 className="text-5xl md:text-7xl font-display font-medium tracking-tight text-foreground leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
           Launch. Grow.
           <br />
@@ -25,13 +32,6 @@ const HeroSection = () => {
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
           I'm here to help contractors, nonprofits, and small business owners stop bleeding time, money, & good clients—and focus instead on revenue and impact.
         </p>
-        <div className="flex justify-center mt-10 mb-4 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          <img
-            src={headshot}
-            alt="Beth Frankos"
-            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg ring-4 ring-background"
-          />
-        </div>
         <div className="mt-4 animate-fade-in-up" style={{ animationDelay: "0.65s" }}>
           <a
             href="https://calendly.com/bethfrankosfreelance/15min"
