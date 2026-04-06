@@ -4,6 +4,7 @@ import FooterSection from "@/components/FooterSection";
 const tiers = [
   {
     title: "Starter Site",
+    price: "$750",
     tagline: "For businesses that need a polished online presence fast.",
     icon: Globe,
     features: [
