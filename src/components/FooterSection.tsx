@@ -1,5 +1,6 @@
 import { Instagram, Mail, Calendar, Facebook, FileText } from "lucide-react";
 import logoFooter from "@/assets/logo-footer.jpg";
+import PayPalButton from "@/components/PayPalButton";
 
 const links = [
   { icon: Instagram, href: "https://www.instagram.com/beth.frankos?igsh=MXR4bHh6a3BhYzk4bw==", label: "Instagram" },
@@ -20,6 +21,9 @@ const FooterSection = () => {
           Ready to get your operations under control? Book a free 15-minute call or send me a message.
         </p>
         <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-48 mx-auto mb-10 rounded-[25%]" />
+        <div className="mb-14">
+          <PayPalButton />
+        </div>
         <div className="flex items-center justify-center gap-6 mb-14">
           {links.map(({ icon: Icon, href, label }) => (
             <a
