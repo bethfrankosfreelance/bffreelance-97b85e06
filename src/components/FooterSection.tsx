@@ -22,7 +22,12 @@ const FooterSection = () => {
         </p>
         <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-48 mx-auto mb-10 rounded-[25%]" />
         <div className="mb-14">
-          <PayPalButton />
+          <Link
+            to="/payments"
+            className="inline-block px-8 py-3 rounded-full bg-accent text-accent-foreground font-body text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
+          >
+            Pay Now
+          </Link>
         </div>
         <div className="flex items-center justify-center gap-6 mb-14">
           {links.map(({ icon: Icon, href, label }) => (
