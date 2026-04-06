@@ -21,6 +21,9 @@ const FooterSection = () => {
           Ready to get your operations under control? Book a free 15-minute call or send me a message.
         </p>
         <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-48 mx-auto mb-10 rounded-[25%]" />
+        <div className="mb-14">
+          <PayPalButton />
+        </div>
         <div className="flex items-center justify-center gap-6 mb-14">
           {links.map(({ icon: Icon, href, label }) => (
             <a
