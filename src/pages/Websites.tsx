@@ -62,7 +62,7 @@ const Websites = () => {
           </h1>
           <div className="w-16 h-px bg-accent mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }} />
           <p className="font-body text-base md:text-lg text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-            I build affordable websites for local businesses that want a strong online presence without the stress. You can manage your site yourself with AI tools if you want, or I can handle updates for you as your webmaster.
+            I build affordable websites for local businesses that want a strong online presence without the stress. I can teach you to manage your site with AI tools, or I can handle updates for you as your webmaster.
           </p>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
             <a
