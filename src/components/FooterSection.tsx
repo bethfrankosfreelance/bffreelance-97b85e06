@@ -14,7 +14,7 @@ const FooterSection = () => {
   return (
     <footer className="py-20 px-6 bg-primary text-primary-foreground">
       <div className="max-w-3xl mx-auto text-center">
-        <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-48 mx-auto mb-10 rounded-[25%]" />
+        <img src={logoFooter} alt="Beth Frankos Freelance LLC" className="w-36 mx-auto mb-10 rounded-[25%]" />
         <h2 className="text-3xl md:text-4xl font-display font-medium mb-4">
           Let's work together.
         </h2>
