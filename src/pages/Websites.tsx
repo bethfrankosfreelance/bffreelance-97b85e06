@@ -4,6 +4,7 @@ import FooterSection from "@/components/FooterSection";
 const tiers = [
   {
     title: "Starter Site",
+    price: "$750",
     tagline: "For businesses that need a polished online presence fast.",
     icon: Globe,
     features: [
@@ -17,6 +18,7 @@ const tiers = [
   },
   {
     title: "Growth Site",
+    price: "$1,500",
     tagline: "For businesses that want a more complete website with stronger branding.",
     icon: Palette,
     featured: true,
@@ -32,6 +34,7 @@ const tiers = [
   },
   {
     title: "Managed Webmaster Plan",
+    price: "$200/mo",
     tagline: "For businesses that want someone to handle the website for them.",
     icon: Shield,
     features: [
@@ -43,6 +46,7 @@ const tiers = [
       "Ongoing webmaster support",
     ],
     bestFor: "Owners who do not want to manage the website themselves.",
+    note: "Available exclusively for existing and prior website customers.",
   },
 ];
 
@@ -114,7 +118,10 @@ const Websites = () => {
                 }`}
               >
                 <tier.icon className={`w-8 h-8 mb-4 ${tier.featured ? "text-accent" : "text-gold-dark"}`} />
-                <h3 className="text-2xl font-display font-medium mb-2">{tier.title}</h3>
+                <h3 className="text-2xl font-display font-medium mb-1">{tier.title}</h3>
+                <p className={`text-3xl font-display font-semibold mb-3 ${tier.featured ? "text-accent" : "text-gold-dark"}`}>
+                  {tier.price}
+                </p>
                 <p className={`text-sm font-body mb-6 leading-relaxed ${tier.featured ? "text-primary-foreground/80" : "text-muted-foreground"}`}>
                   {tier.tagline}
                 </p>
@@ -129,6 +136,11 @@ const Websites = () => {
                 <p className={`text-xs font-body italic ${tier.featured ? "text-primary-foreground/60" : "text-taupe"}`}>
                   Best for: {tier.bestFor}
                 </p>
+                {tier.note && (
+                  <p className={`text-xs font-body mt-3 font-medium ${tier.featured ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
+                    {tier.note}
+                  </p>
+                )}
               </div>
             ))}
           </div>
