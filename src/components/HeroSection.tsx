@@ -30,7 +30,7 @@ const HeroSection = () => {
           Beth Frankos Freelance LLC
         </p>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-          I'm here to help contractors, nonprofits, and small business owners stop bleeding time, money, & good clients—and focus instead on revenue and impact.
+          Book a strategy session if you want clarity on your product, your positioning, or your next business move.
         </p>
         <div className="mt-4 animate-fade-in-up" style={{ animationDelay: "0.65s" }}>
           <a
