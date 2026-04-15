@@ -11,7 +11,10 @@ const AboutSection = () => {
           <span className="italic">I'll handle the process.</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-          Working with me means streamlining your processes, scaling your operations & expanding your impact—Leading you to stronger client relationships, more time to focus on the work you love & the confidence to take on bigger opportunities without collapsing. <strong>Are you ready?</strong>
+          Working with me means streamlining your processes, scaling your operations & expanding your impact—Leading you to stronger client relationships, more time to focus on the work you love & the confidence to take on bigger opportunities without collapsing.
+        </p>
+        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mt-4 italic">
+          Are you ready?
         </p>
       </div>
     </section>
