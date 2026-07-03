@@ -6,7 +6,7 @@ import FooterSection from "@/components/FooterSection";
 const tiers = [
   {
     title: "Starter Site",
-    price: "$750",
+    price: "$975",
     tagline: "For businesses that need a polished online presence fast.",
     icon: Globe,
     features: [
@@ -20,7 +20,7 @@ const tiers = [
   },
   {
     title: "Growth Site",
-    price: "$1,500",
+    price: "$1,950",
     tagline: "For businesses that want a more complete website with stronger branding.",
     icon: Palette,
     featured: true,
@@ -36,7 +36,7 @@ const tiers = [
   },
   {
     title: "Managed Webmaster Plan",
-    price: "$200/mo",
+    price: "$260/mo",
     tagline: "For businesses that want someone to handle the website for them.",
     icon: Shield,
     features: [
