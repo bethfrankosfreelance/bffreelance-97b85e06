@@ -36,7 +36,7 @@ const tiers = [
   },
   {
     title: "Managed Webmaster Plan",
-    price: "$320/mo",
+    price: "$625/mo",
     tagline: "For businesses that want someone to handle the website for them.",
     icon: Shield,
     features: [
@@ -151,7 +151,7 @@ const Websites = () => {
                 </p>
                 {tier.note && (
                   <p className={`text-xs font-body mt-3 font-medium ${tier.featured ? "text-primary-foreground/70" : "text-muted-foreground"}`}>
-                    {tier.note}
+                    * {tier.note}
                   </p>
                 )}
               </div>
