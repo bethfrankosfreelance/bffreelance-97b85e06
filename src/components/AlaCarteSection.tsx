@@ -1,11 +1,11 @@
 const items = [
-  { price: "$125", desc: "One & done deliverables — 24hrs or your money back" },
-  { price: "$150", desc: "Consulting deep dive" },
-  { price: "$250", desc: "Branded documents package" },
-  { price: "$450", desc: "Build-your-own 3 docs, systems or processes" },
-  { price: "$750", desc: "Rebrand + docs + web presence" },
-  { price: "$1,500", desc: "All-in package — 14 day turnaround, or your money back" },
-  { price: "$1,500/mo", desc: "Monthly retainer" },
+  { price: "$163", desc: "One & done deliverables — 24hrs or your money back" },
+  { price: "$195", desc: "Consulting deep dive" },
+  { price: "$325", desc: "Branded documents package" },
+  { price: "$585", desc: "Build-your-own 3 docs, systems or processes" },
+  { price: "$975", desc: "Rebrand + docs + web presence" },
+  { price: "$1,950", desc: "All-in package — 14 day turnaround, or your money back" },
+  { price: "$1,950/mo", desc: "Monthly retainer" },
 ];
 
 const AlaCarteSection = () => {
