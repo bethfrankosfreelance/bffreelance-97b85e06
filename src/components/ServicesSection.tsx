@@ -12,7 +12,7 @@ interface ServiceTier {
 const tiers: ServiceTier[] = [
   {
     title: "Business Setup",
-    price: "$1,170",
+    price: "$1,410",
     tagline: "Just getting started? I'll get you legal, organized & ready to take on jobs.",
     features: [
       "LLC/Non-profit",
@@ -23,7 +23,7 @@ const tiers: ServiceTier[] = [
   },
   {
     title: "Operations & Strategy",
-    price: "$1,950",
+    price: "$2,340",
     tagline: "Ready to grow, but disorganization is standing in the way?",
     features: [
       "Calendar + crew scheduler setup",
@@ -40,7 +40,7 @@ const tiers: ServiceTier[] = [
   },
   {
     title: "Retainer",
-    price: "$1,950 + $650/wk",
+    price: "$2,340 + $780/wk",
     tagline: "All of the above, plus ongoing support.",
     features: [
       "Weekly support calls & updates",
@@ -51,7 +51,7 @@ const tiers: ServiceTier[] = [
   },
   {
     title: "Nonprofits & Grant Writing",
-    price: "$1,950+",
+    price: "$2,340+",
     tagline: "You've got vision and heart—I'll help you secure funding and build systems.",
     features: [
       "501(c)(3) setup or compliance review",
