@@ -20,7 +20,7 @@ const tiers = [
   },
   {
     title: "Growth Site",
-    price: "$2,340",
+    price: "$2,350",
     tagline: "For businesses that want a more complete website with stronger branding.",
     icon: Palette,
     featured: true,
