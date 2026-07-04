@@ -10,7 +10,7 @@ const testimonials = [
     title: "CPA",
   },
   {
-    quote: "Beth got my non-profit 501c3 status in less than 2 weeks. I was shocked we got it that fast, but she made everything simple and easy.",
+    quote: "Beth got my non-profit 501c3 status in less than 2 weeks and curated a strong list of grant prospects for us. I was shocked we got the status that fast, but she made everything simple and easy.",
     name: "Renequa Jones",
     title: "Non-Profit Leader",
   },
