@@ -54,7 +54,7 @@ const tiers: ServiceTier[] = [
   },
   {
     title: "Retainer",
-    price: "$3,500 + $780/wk",
+    price: "$2,000 + $780/wk",
     tagline: "All of the above, plus ongoing support.",
     features: [
       "Weekly support calls & updates",
