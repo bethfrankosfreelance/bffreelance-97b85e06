@@ -5,7 +5,7 @@ const items = [
   { price: "$850", desc: "Build-your-own 3 docs, systems or processes" },
   { price: "$1,410", desc: "Rebrand + docs + web presence" },
   { price: "$2,810", desc: "All-in package — 14 day turnaround, or your money back" },
-  { price: "$2,810/mo", desc: "Monthly retainer" },
+  { price: "$2,340/mo", desc: "Monthly retainer" },
 ];
 
 const AlaCarteSection = () => {
