@@ -34,14 +34,12 @@ const HeroSection = () => {
           Book a strategy session if you want clarity on your product, your positioning, or your next business move.
         </p>
         <div className="mt-4 animate-fade-in-up" style={{ animationDelay: "0.65s" }}>
-          <a
-            href="https://calendly.com/bethfrankosfreelance/15min"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
           >
             Book a Call
-          </a>
+          </Link>
         </div>
       </div>
     </section>
