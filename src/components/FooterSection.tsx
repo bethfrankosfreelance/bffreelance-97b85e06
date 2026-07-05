@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const links = [
   { icon: Instagram, href: "https://www.instagram.com/beth.frankos?igsh=MXR4bHh6a3BhYzk4bw==", label: "Instagram" },
   { icon: Facebook, href: "https://www.facebook.com/share/1AgkuwNfDa/", label: "Facebook" },
-  { icon: Calendar, href: "https://calendly.com/bethfrankosfreelance/15min", label: "Book a Call" },
+  { icon: Calendar, href: "/book", label: "Book a Call" },
   { icon: Mail, href: "mailto:info@bethfrankos.org", label: "Email" },
   { icon: FileText, href: "https://docs.google.com/forms/d/e/1FAIpQLScbXZRCufQdGBA1cxb3vYpKw0mb56yFdb-6u1QwReb8RZwT2w/viewform?usp=header", label: "Inquiry Form" },
 ];

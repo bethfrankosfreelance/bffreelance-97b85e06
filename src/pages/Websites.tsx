@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Check, Globe, Palette, Shield } from "lucide-react";
 import FooterSection from "@/components/FooterSection";
 
@@ -82,14 +82,12 @@ const Websites = () => {
             I build affordable websites for local businesses that want a strong online presence without the stress. I can teach you to manage your site with AI tools, or I can handle updates for you as your webmaster.
           </p>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-            <a
-              href="https://calendly.com/bethfrankosfreelance/15min"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/book"
               className="inline-block px-8 py-3.5 bg-accent text-accent-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
             >
               Get a Free Consultation
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -172,14 +170,12 @@ const Websites = () => {
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-10">
             Choose a one-time website build or ongoing monthly webmaster support depending on how hands-on you want to be.
           </p>
-          <a
-            href="https://calendly.com/bethfrankosfreelance/15min"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
           >
             Get a Free Consultation
-          </a>
+          </Link>
         </div>
       </section>
 
