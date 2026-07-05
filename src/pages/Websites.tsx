@@ -170,14 +170,12 @@ const Websites = () => {
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-10">
             Choose a one-time website build or ongoing monthly webmaster support depending on how hands-on you want to be.
           </p>
-          <a
-            href="https://calendly.com/bethfrankosfreelance/15min"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
           >
             Get a Free Consultation
-          </a>
+          </Link>
         </div>
       </section>
 
