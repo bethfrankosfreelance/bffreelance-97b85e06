@@ -82,14 +82,12 @@ const Websites = () => {
             I build affordable websites for local businesses that want a strong online presence without the stress. I can teach you to manage your site with AI tools, or I can handle updates for you as your webmaster.
           </p>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-            <a
-              href="https://calendly.com/bethfrankosfreelance/15min"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/book"
               className="inline-block px-8 py-3.5 bg-accent text-accent-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
             >
               Get a Free Consultation
-            </a>
+            </Link>
           </div>
         </div>
       </section>
