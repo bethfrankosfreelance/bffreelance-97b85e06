@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const testimonials = [
   {
     quote: "Beth is so efficient, I can't believe how much she was able to help our team get done in just a few weeks.",
@@ -38,6 +40,14 @@ const TestimonialsSection = () => {
               </p>
             </div>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+          <Link
+            to="/book"
+            className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+          >
+            Book a Call
+          </Link>
         </div>
       </div>
     </section>
