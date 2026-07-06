@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import headshot from "@/assets/headshot.jpg";
 
@@ -33,14 +32,6 @@ const HeroSection = () => {
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
           Book a strategy session if you want clarity on your product, your positioning, or your next business move.
         </p>
-        <div className="mt-4 animate-fade-in-up" style={{ animationDelay: "0.65s" }}>
-          <Link
-            to="/book"
-            className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
-          >
-            Book a Call
-          </Link>
-        </div>
       </div>
     </section>
   );
