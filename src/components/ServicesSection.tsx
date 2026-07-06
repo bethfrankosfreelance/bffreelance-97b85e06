@@ -62,6 +62,7 @@ const tiers: ServiceTier[] = [
       "Done-for-you systems",
       "3+ weeks personalized support & implementation",
     ],
+    featured: true,
   },
 ];
 
@@ -73,9 +74,6 @@ const ServiceCard = ({ tier }: { tier: ServiceTier }) => (
         : "bg-card ring-1 ring-border"
     }`}
   >
-    <p className={`text-sm tracking-[0.25em] uppercase font-body mb-2 ${tier.featured ? "text-primary-foreground/70" : "text-taupe"}`}>
-      Tier
-    </p>
     <h3 className="text-2xl font-display font-medium mb-1">{tier.title}</h3>
     <p className={`text-3xl font-display font-semibold mb-4 ${tier.featured ? "text-primary-foreground" : "text-gold-dark"}`}>
       {tier.price}
