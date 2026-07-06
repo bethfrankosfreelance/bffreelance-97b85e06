@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="py-28 md:py-36 px-6">
+    <section className="py-28 md:py-36 px-6 bg-secondary/50">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6">
           About
