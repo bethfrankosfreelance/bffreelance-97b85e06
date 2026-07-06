@@ -14,7 +14,7 @@ const FooterSection = () => {
     <footer className="py-20 px-6 bg-primary text-primary-foreground">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-display font-medium mb-4">
-          Let's work together.
+          I'm ready when you are.
         </h2>
         <p className="font-body text-primary-foreground/70 mb-10 text-sm max-w-md mx-auto">
           Ready to get your operations under control? Book a free 15-minute call or send me a message.
