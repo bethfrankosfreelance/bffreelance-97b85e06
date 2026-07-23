@@ -2,10 +2,16 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import PayPalButton from "@/components/PayPalButton";
 import bethHeadshot from "@/assets/beth-headshot.jpg";
+import SEO from "@/components/SEO";
 
 const Payments = () => {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
+      <SEO
+        title="Make a Payment — Beth Frankos Freelance"
+        description="Securely submit payment to Beth Frankos Freelance LLC via PayPal."
+        path="/payments"
+      />
       <header className="py-6 px-6">
         <div className="max-w-3xl mx-auto">
           <Link

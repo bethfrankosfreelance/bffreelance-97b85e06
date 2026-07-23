@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Check, Globe, Palette, Shield } from "lucide-react";
 import FooterSection from "@/components/FooterSection";
+import SEO from "@/components/SEO";
 
 const tiers = [
   {
@@ -66,6 +67,31 @@ const Websites = () => {
 
   return (
     <main>
+      <SEO
+        title="Website Design for Small Businesses — Beth Frankos Freelance"
+        description="Affordable website packages for small businesses and local contractors. Starter, Growth, and Managed Webmaster tiers with transparent pricing."
+        path="/websites"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": "Website design and management",
+          "provider": {
+            "@type": "Organization",
+            "name": "Beth Frankos Freelance LLC",
+            "url": "https://bffreelance.lovable.app/",
+          },
+          "areaServed": "US",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Website Packages",
+            "itemListElement": [
+              { "@type": "Offer", "name": "Starter Site", "price": "1170", "priceCurrency": "USD" },
+              { "@type": "Offer", "name": "Growth Site", "price": "2350", "priceCurrency": "USD" },
+              { "@type": "Offer", "name": "Managed Webmaster Plan", "price": "625", "priceCurrency": "USD" },
+            ],
+          },
+        }}
+      />
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-primary">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 to-primary" />
