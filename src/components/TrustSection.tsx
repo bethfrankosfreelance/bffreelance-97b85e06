@@ -13,8 +13,11 @@ const TrustSection = () => {
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
           Your team is stretched. Follow-up is slipping. Too much still runs through you. Every day the friction stays in place, growth costs more time, more energy, and more money than it should.
         </p>
-        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
+        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
           You do not need more hustle. You need cleaner systems, sharper processes, and stronger execution — and you need them now, not next quarter.
+        </p>
+        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
+          Whether you are launching, growing, or developing your business, the right support can save time, reduce costly trial and error, and help you move forward with greater clarity and confidence. Moving too slowly can mean missed opportunities, avoidable mistakes, and more time spent trying to figure things out alone.
         </p>
       </div>
     </section>
