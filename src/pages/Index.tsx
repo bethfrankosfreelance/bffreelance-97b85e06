@@ -3,7 +3,10 @@ import HeroSection from "@/components/HeroSection";
 import TrustSection from "@/components/TrustSection";
 import WhoForSection from "@/components/WhoForSection";
 import ProblemSection from "@/components/ProblemSection";
+import ProofSection from "@/components/ProofSection";
 import ServicesSection from "@/components/ServicesSection";
+import MidPageCtaSection from "@/components/MidPageCtaSection";
+import InquiryFormSection from "@/components/InquiryFormSection";
 import WhyMeSection from "@/components/WhyMeSection";
 import AboutSection from "@/components/AboutSection";
 import ResultsSection from "@/components/ResultsSection";
@@ -26,11 +29,14 @@ const Index = () => {
       <TrustSection />
       <WhoForSection />
       <ProblemSection />
+      <ProofSection />
       <ServicesSection />
+      <MidPageCtaSection />
       <WhyMeSection />
       <AboutSection />
       <ResultsSection />
       <TestimonialsSection />
+      <InquiryFormSection />
       <FaqSection />
       <FinalCtaSection />
       <FooterSection />
