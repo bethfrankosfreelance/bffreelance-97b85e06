@@ -130,7 +130,7 @@ const Websites = () => {
             A better website is <span className="italic">within reach.</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            If your business needs a better website, I can help you launch a clean, modern site that is built to grow with you. I create websites that are easy to update, mobile-friendly, and designed to help your business look credible and get noticed.
+            When your online presence needs to reflect the quality of your business, a clean, modern website creates that foundation. Designed for ease of use, mobile responsiveness, and long-term growth, your site should enhance credibility and help your business get noticed.
           </p>
         </div>
       </section>
