@@ -37,15 +37,15 @@ const HeroSection = () => {
           >
             Book a 15-Minute Strategy Call
           </Link>
-          <a
-            href="#services"
+          <Link
+            to="/websites#packages"
             className="inline-block px-8 py-3.5 border border-primary/30 text-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:bg-primary/5 transition-colors"
           >
-            Explore Services
-          </a>
+            See Website Packages
+          </Link>
         </div>
         <p className="font-body text-sm text-muted-foreground/80 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          For owners juggling too much, bleeding time to broken processes, and ready to move.
+          Need a stronger website but not ready to book a call yet? Review the options, see what is included, and choose the level of support that fits your business best.
         </p>
 
       </div>
