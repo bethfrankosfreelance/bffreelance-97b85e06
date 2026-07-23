@@ -104,8 +104,10 @@ const ServiceCard = ({ s }: { s: Service }) => (
     >
       {s.best}
     </p>
-    <Link
-      to="/book"
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLScbXZRCufQdGBA1cxb3vYpKw0mb56yFdb-6u1QwReb8RZwT2w/viewform"
+      target="_blank"
+      rel="noopener noreferrer"
       className={`inline-block text-center px-6 py-3 rounded-sm font-body text-sm tracking-widest uppercase transition-opacity hover:opacity-90 ${
         s.featured
           ? "bg-primary-foreground text-primary"
@@ -113,7 +115,7 @@ const ServiceCard = ({ s }: { s: Service }) => (
       }`}
     >
       {s.cta}
-    </Link>
+    </a>
   </div>
 );
 
