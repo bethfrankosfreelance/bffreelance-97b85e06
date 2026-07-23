@@ -227,7 +227,7 @@ const Websites = () => {
             Practical websites that <span className="italic">grow with you.</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            I help small businesses get websites that are practical, professional, and easy to maintain. My goal is to give you a site that works for your business now and can grow with you later, whether you want to manage it yourself or hand it off to me.
+            Your business deserves a website that is practical, professional, and easy to maintain — built to support your needs today and grow with you over time. When your online presence falls short, potential clients move on and opportunities are missed. Whether you prefer to manage it yourself or have it handled for you, your site should work reliably on your behalf.
           </p>
         </div>
       </section>
