@@ -28,6 +28,11 @@ async function createCheckoutSession(options: {
     mode: isRecurring ? "subscription" : "payment",
     ui_mode: "embedded_page",
     return_url: options.returnUrl,
+    // Disable Stripe Adaptive Pricing so prices are never auto-converted
+    // into the buyer's local currency (e.g. MXN). Charges stay in the
+    // price's original currency (USD); EUR buyers are charged in EUR
+    // via their card issuer's cross-border conversion.
+    adaptive_pricing: { enabled: false },
     ...(options.customerEmail && { customer_email: options.customerEmail }),
     ...(!isRecurring && { payment_intent_data: { description: productDescription } }),
   });
