@@ -19,14 +19,6 @@ const FooterSection = () => {
         <p className="font-body text-primary-foreground/70 mb-10 text-sm max-w-md mx-auto">
           Ready to get your operations under control? Book a free 15-minute call or send me a message.
         </p>
-        <div className="mb-14">
-          <Link
-            to="/payments"
-            className="inline-block px-8 py-3 rounded-full bg-accent text-accent-foreground font-body text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
-          >
-            Pay Now
-          </Link>
-        </div>
         <div className="flex items-center justify-center gap-6 mb-14">
           {links.map(({ icon: Icon, href, label }) => (
             <a
@@ -40,6 +32,14 @@ const FooterSection = () => {
               <Icon className="w-4 h-4" />
             </a>
           ))}
+        </div>
+        <div className="mb-14">
+          <Link
+            to="/payments"
+            className="inline-block px-8 py-3 rounded-full bg-accent text-accent-foreground font-body text-sm font-medium tracking-wide hover:opacity-90 transition-opacity"
+          >
+            Pay Now
+          </Link>
         </div>
         <div className="border-t border-primary-foreground/10 pt-8">
           
