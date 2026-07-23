@@ -1,0 +1,12 @@
+# Beth Frankos Freelance LLC
+
+> Operations consulting, business setup, and website services for contractors, nonprofits, and small businesses. Streamline processes, scale operations, and grow revenue.
+
+Beth Frankos Freelance LLC helps small business owners, contractors, and nonprofits launch, grow, and thrive through operations consulting, strategic support, and affordable web design.
+
+## Pages
+
+- [Home](/): Overview of services, testimonials, packages, and à la carte offerings.
+- [Websites](/websites): Small-business website packages — Starter, Growth, and Managed Webmaster.
+- [Book a Call](/book): Qualifying form and embedded calendar to schedule a strategy session.
+- [Payments](/payments): Secure PayPal checkout for existing clients.
