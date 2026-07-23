@@ -104,7 +104,7 @@ const Websites = () => {
           </h1>
           <div className="w-16 h-px bg-accent mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }} />
           <p className="font-body text-base md:text-lg text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-            Creating tailored website designs that combine aesthetics, function and seamless integrations—and managed with ease.
+            Creating tailored website designs that combine aesthetics, function, seamless integrations—and managed with ease.
           </p>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
             <Link
