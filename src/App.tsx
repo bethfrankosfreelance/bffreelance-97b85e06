@@ -8,6 +8,8 @@ import Index from "./pages/Index.tsx";
 import Websites from "./pages/Websites.tsx";
 import Payments from "./pages/Payments.tsx";
 import Book from "./pages/Book.tsx";
+import Checkout from "./pages/Checkout.tsx";
+import CheckoutReturn from "./pages/CheckoutReturn.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -41,6 +43,8 @@ const App = () => (
           <Route path="/websites" element={<Websites />} />
           <Route path="/payments" element={<Payments />} />
           <Route path="/book" element={<Book />} />
+          <Route path="/checkout/return" element={<CheckoutReturn />} />
+          <Route path="/checkout/:priceId" element={<Checkout />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

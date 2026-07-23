@@ -8,6 +8,7 @@ const tiers = [
   {
     title: "Starter Site",
     price: "$1,170",
+    priceId: "website_starter_onetime",
     tagline: "For businesses that need a polished online presence fast.",
     icon: Globe,
     features: [
@@ -22,6 +23,7 @@ const tiers = [
   {
     title: "Growth Site",
     price: "$2,350",
+    priceId: "website_growth_v2_onetime",
     tagline: "For businesses that want a more complete website with stronger branding.",
     icon: Palette,
     featured: true,
@@ -38,6 +40,7 @@ const tiers = [
   {
     title: "Managed Webmaster Plan",
     price: "$625/mo",
+    priceId: "managed_webmaster_monthly",
     tagline: "For businesses that want someone to handle the website for them.",
     icon: Shield,
     features: [
@@ -177,6 +180,16 @@ const Websites = () => {
                     * {tier.note}
                   </p>
                 )}
+                <Link
+                  to={`/checkout/${tier.priceId}`}
+                  className={`mt-6 inline-block text-center px-6 py-3 rounded-sm font-body text-sm tracking-widest uppercase transition-opacity hover:opacity-90 ${
+                    tier.featured
+                      ? "bg-primary-foreground text-primary"
+                      : "bg-primary text-primary-foreground"
+                  }`}
+                >
+                  Buy Now
+                </Link>
               </div>
             ))}
           </div>
