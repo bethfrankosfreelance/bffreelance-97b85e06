@@ -8,7 +8,7 @@ const TrustSection = () => {
         <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-10 leading-tight">
           Stop losing hours to broken systems.
           <br />
-          <span className="italic">Get your business running clean.</span>
+          <span className="italic">Run a cleaner, more scalable operation.</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
           Your team is stretched. Follow-up is slipping. Too much still runs through you. Every day the friction stays in place, growth costs more time, more energy, and more money than it should.
