@@ -28,7 +28,6 @@ async function createCheckoutSession(options: {
     mode: isRecurring ? "subscription" : "payment",
     ui_mode: "embedded_page",
     return_url: options.returnUrl,
-    automatic_tax: { enabled: true },
     ...(options.customerEmail && { customer_email: options.customerEmail }),
     ...(!isRecurring && { payment_intent_data: { description: productDescription } }),
   });
