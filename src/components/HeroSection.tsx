@@ -28,7 +28,7 @@ const HeroSection = () => {
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }} />
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-          I help small businesses streamline operations, reduce bottlenecks, and create the structure needed to scale more effectively.
+          Streamline operations, cut the bottlenecks, and build the structure your business needs to scale — without adding more chaos to your week.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
           <Link
@@ -45,8 +45,9 @@ const HeroSection = () => {
           </a>
         </div>
         <p className="font-body text-sm text-muted-foreground/80 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          For business owners who are juggling too much, losing time to inefficient processes, or trying to grow without the systems to support it.
+          For owners juggling too much, bleeding time to broken processes, and ready to move — now.
         </p>
+
       </div>
     </section>
   );

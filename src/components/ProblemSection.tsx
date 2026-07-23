@@ -1,10 +1,10 @@
 const bullets = [
   "Important tasks live in too many places.",
   "Processes depend on memory instead of systems.",
-  "Client follow-up is inconsistent.",
+  "Client follow-up is inconsistent — and costing you deals.",
   "Internal communication is unclear or delayed.",
-  "The owner is still the main point of control for too many decisions.",
-  "Growth creates more stress instead of more stability.",
+  "You are still the bottleneck for too many decisions.",
+  "Growth is creating more stress instead of more stability.",
 ];
 
 const ProblemSection = () => {
@@ -16,10 +16,10 @@ const ProblemSection = () => {
             The Real Bottleneck
           </p>
           <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-6">
-            What gets in <span className="italic">the way of growth</span>
+            If any of this sounds familiar, <span className="italic">it is time to move</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            Most businesses do not have a growth problem first. They have an operations problem that shows up in growth.
+            Most businesses do not have a growth problem first. They have an operations problem — and every week it goes unfixed, it gets more expensive.
           </p>
         </div>
         <ul className="space-y-4 mb-10">
@@ -32,7 +32,7 @@ const ProblemSection = () => {
           ))}
         </ul>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed text-center italic">
-          When these issues compound, the business becomes harder to run, harder to scale, and more expensive in time and energy than it needs to be.
+          Left alone, these issues compound. Fixed early, they unlock the growth already sitting in front of you.
         </p>
       </div>
     </section>
