@@ -45,7 +45,7 @@ const HeroSection = () => {
           </a>
         </div>
         <p className="font-body text-sm text-muted-foreground/80 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          For owners juggling too much, bleeding time to broken processes, and ready to move — now.
+          For owners juggling too much, bleeding time to broken processes, and ready to move.
         </p>
 
       </div>
