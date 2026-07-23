@@ -14,15 +14,16 @@ const schema = z.object({
 const needOptions = [
   "A new website",
   "A website refresh",
-  "Ongoing updates or webmaster support",
+  "Ongoing website updates or webmaster support",
   "Integrations and functionality",
-  "Not sure yet",
+  "Business strategy or launch support",
+  "I'm not sure yet",
 ];
 
 const nextOptions = [
   "Book a strategy call",
   "Request pricing",
-  "Ask a few questions first",
+  "Send me more information",
 ];
 
 const InquiryFormSection = () => {
@@ -70,10 +71,10 @@ const InquiryFormSection = () => {
             Start the Conversation
           </p>
           <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-6 leading-tight">
-            Tell us what your <span className="italic">business needs</span>
+            Tell us what you <span className="italic">need</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            Whether you need a new website, updates to an existing one, or ongoing support, a few details are enough to start the conversation.
+            Whether you are launching, growing, or refining your business, a few details are enough to get started. Share what you need help with, and the next best step will be sent your way.
           </p>
         </div>
         <form onSubmit={onSubmit} className="space-y-5">
@@ -119,6 +120,9 @@ const InquiryFormSection = () => {
             </button>
             <p className="mt-4 font-body text-sm text-muted-foreground">
               A reply will be sent with next steps, pricing guidance, or the best recommendation based on your needs.
+            </p>
+            <p className="mt-3 font-body text-xs text-muted-foreground/80 leading-relaxed max-w-xl mx-auto">
+              Every business is different, so the best next step will depend on your goals, scope, and stage of growth. Replies are typically sent within one business day, and recommendations are tailored accordingly.
             </p>
           </div>
         </form>
