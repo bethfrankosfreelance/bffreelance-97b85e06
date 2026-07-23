@@ -2,25 +2,24 @@ const cards = [
   {
     title: "Look more credible",
     body:
-      "When your website reflects the quality of your business, potential clients are more likely to trust what you offer and take the next step.",
+      "When your website reflects the quality of your business, visitors are more likely to trust what you offer and take the next step.",
   },
   {
     title: "Work more efficiently",
     body:
-      "A stronger website can support your operations with clearer information, better structure, and tools or integrations that reduce friction behind the scenes.",
+      "A stronger website can reduce friction with clearer structure, better organization, and the right tools or integrations behind the scenes.",
   },
   {
     title: "Capture more opportunity",
     body:
-      "When your online presence is clear, current, and easy to use, fewer opportunities are lost to confusion, poor mobile experience, or outdated information.",
+      "When your site is clear, current, and easy to use, fewer opportunities are lost to confusion, outdated information, or a poor mobile experience.",
   },
 ];
 
 const workingBullets = [
-  "Clear recommendations based on your business needs",
-  "A website tailored to function as well as aesthetics",
-  "Mobile-friendly design and easy user experience",
-  "Flexible support after launch, whether you want to manage it or have it handled for you",
+  "Built to support businesses that want a stronger online presence",
+  "Better functionality tailored to the way you work",
+  "A website that can grow with you over time",
 ];
 
 const ProofSection = () => {
@@ -32,10 +31,10 @@ const ProofSection = () => {
             The Case for a Stronger Site
           </p>
           <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-6 leading-tight">
-            What a stronger website should <span className="italic">do for your business</span>
+            What a stronger website should <span className="italic">do</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            A good website should do more than look polished. It should support credibility, make information easier to find, work well on every device, and create a smoother path for potential clients to take action.
+            A good website should do more than look polished. It should help your business feel credible, make information easier to find, and support the way you work every day.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 mb-20">
