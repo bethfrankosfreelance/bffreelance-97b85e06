@@ -100,8 +100,7 @@ const Websites = () => {
             Web Design Services
           </p>
           <h1 className="text-4xl md:text-6xl font-display font-medium tracking-tight text-primary-foreground leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
-            Websites that look professional &amp;{" "}
-            <span className="italic">bring in customers.</span>
+            Functional websites that bring in customers and drive sales.
           </h1>
           <div className="w-16 h-px bg-accent mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }} />
           <p className="font-body text-base md:text-lg text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
