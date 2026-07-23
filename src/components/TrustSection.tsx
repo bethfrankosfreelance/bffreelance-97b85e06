@@ -6,15 +6,15 @@ const TrustSection = () => {
           Clarity Over Chaos
         </p>
         <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-10 leading-tight">
-          Practical support for businesses that need
+          Stop losing hours to broken systems.
           <br />
-          <span className="italic">more clarity and less chaos.</span>
+          <span className="italic">Get your business running clean.</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
-          Growth often creates complexity before it creates stability. Teams get stretched, communication gets inconsistent, follow-up falls through the cracks, and the business starts depending too heavily on the owner to hold everything together. This is where better systems, clearer processes, and stronger execution make a measurable difference.
+          Your team is stretched. Follow-up is slipping. Too much still runs through you. Every day the friction stays in place, growth costs more time, more energy, and more money than it should.
         </p>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-          I work with small businesses that are ready to move out of reactive mode. Together, we identify what is slowing the business down, clean up the operational friction, and put better structure in place so growth becomes easier to manage.
+          You do not need more hustle. You need cleaner systems, sharper processes, and stronger execution — and you need them now, not next quarter.
         </p>
       </div>
     </section>

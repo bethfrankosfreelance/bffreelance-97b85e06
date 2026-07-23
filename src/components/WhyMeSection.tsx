@@ -3,16 +3,16 @@ const WhyMeSection = () => {
     <section className="py-24 md:py-32 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6">
-          Why Clients Hire Me
+          Why Owners Hire Beth
         </p>
         <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-10 leading-tight">
-          Direct, thoughtful, and <span className="italic">grounded in real business.</span>
+          Direct, practical, and <span className="italic">built to get results fast.</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
-          You do not always need a large agency or a complicated consulting engagement to improve how a business runs. Often, you need practical insight, a sharper operating lens, and someone who can see where things are getting stuck and help you fix them.
+          You do not need a bloated agency or a six-month consulting contract to fix how your business runs. You need a sharp outside lens, a clear plan, and someone who can pinpoint exactly what is slowing you down — then help you fix it.
         </p>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-          My approach is direct, thoughtful, and grounded in real-world business building. I focus on helping clients create more clarity, stronger systems, and better execution so they can spend less time managing unnecessary friction and more time moving the business forward.
+          Expect straight answers, prioritized action, and momentum from the first conversation. Less friction. Stronger execution. More time to focus on the work that actually grows the business.
         </p>
       </div>
     </section>

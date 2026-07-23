@@ -5,12 +5,12 @@ const FinalCtaSection = () => {
     <section className="py-24 md:py-32 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-display font-medium text-foreground mb-6 leading-tight">
-          Ready to make growth feel
+          Ready to stop losing time to
           <br />
-          <span className="italic text-gold-dark">more manageable?</span>
+          <span className="italic text-gold-dark">a business that fights back?</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-10 max-w-2xl mx-auto">
-          If your business is working hard but your systems are not keeping up, let's identify what is creating friction and what needs to change first.
+          Book a 15-minute strategy call. Walk away with a clear read on what is slowing the business down and the first move to fix it — fast.
         </p>
         <Link
           to="/book"
@@ -19,7 +19,7 @@ const FinalCtaSection = () => {
           Book Your 15-Minute Strategy Call
         </Link>
         <p className="mt-6 font-body text-sm text-muted-foreground">
-          A simple first step for getting clearer on what is slowing the business down and how to move forward.
+          Straight answers. Prioritized next steps. No fluff.
         </p>
       </div>
     </section>

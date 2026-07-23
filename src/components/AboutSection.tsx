@@ -11,10 +11,10 @@ const AboutSection = () => {
           <span className="italic">stronger execution.</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
-          Beth Frankos is a business builder and consultant with a background shaped by years of navigating business growth, operational problem-solving, and complex working environments. Her experience includes building across different contexts and helping organizations create more structure, consistency, and forward momentum.
+          Beth Frankos is a business builder and consultant who has spent years helping owners cut through operational chaos, tighten execution, and get real momentum back in the business. Her work spans growing companies, contractor teams, and mission-driven organizations that need structure fast.
         </p>
         <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-          She works best with clients who want practical support, honest insight, and a clearer path from scattered effort to stronger execution.
+          If you want practical support, honest insight, and a clear path from scattered effort to stronger results — this is where it starts.
         </p>
       </div>
     </section>
