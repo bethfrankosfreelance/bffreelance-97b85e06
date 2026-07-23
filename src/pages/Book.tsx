@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { z } from "zod";
 import FooterSection from "@/components/FooterSection";
+import SEO from "@/components/SEO";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -109,6 +110,11 @@ const Book = () => {
 
   return (
     <main>
+      <SEO
+        title="Book a Strategy Call — Beth Frankos Freelance"
+        description="Answer a few quick questions, then pick a time for a free 15-minute strategy call with Beth Frankos."
+        path="/book"
+      />
       <section className="relative pt-28 pb-16 px-6 bg-primary">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-sm font-body tracking-[0.35em] uppercase text-primary-foreground/60 mb-6">

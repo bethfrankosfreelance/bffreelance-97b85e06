@@ -43,14 +43,14 @@ const FooterSection = () => {
         </div>
         <div className="border-t border-primary-foreground/10 pt-8">
           
-          <p className="font-body text-xs text-primary-foreground/50 tracking-wide">
+          <p className="font-body text-xs text-primary-foreground/80 tracking-wide">
             © {new Date().getFullYear()} Beth Frankos Freelance LLC. All rights reserved.
           </p>
           <a
             href="https://bffreelance-about.carrd.co/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-3 font-body text-xs text-primary-foreground/50 underline underline-offset-4 hover:text-primary-foreground/80 transition-colors"
+            className="inline-block mt-3 font-body text-xs text-primary-foreground/80 underline underline-offset-4 hover:text-primary-foreground transition-colors"
           >
             Learn more about Beth
           </a>
