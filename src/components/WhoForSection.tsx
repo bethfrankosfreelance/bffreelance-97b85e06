@@ -1,0 +1,48 @@
+const cards = [
+  {
+    title: "Small business owners",
+    body: "You have momentum, but too much still depends on you. You need cleaner systems, stronger follow-through, and a business that can operate with less daily friction.",
+  },
+  {
+    title: "Contractors and service providers",
+    body: "Projects are moving, but back-end processes, communication, scheduling, or client coordination are creating inefficiencies that limit growth.",
+  },
+  {
+    title: "Mission-driven teams and nonprofits",
+    body: "You need practical structure, clearer workflows, and stronger execution so your team can do more with limited time and resources.",
+  },
+];
+
+const WhoForSection = () => {
+  return (
+    <section className="py-24 md:py-32 px-6 bg-secondary/50">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16 max-w-3xl mx-auto">
+          <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6">
+            Who I Work With
+          </p>
+          <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-6">
+            Built for businesses <span className="italic">in motion</span>
+          </h2>
+          <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
+            This work is a strong fit for businesses that are growing, evolving, or trying to regain operational control.
+          </p>
+        </div>
+        <div className="grid md:grid-cols-3 gap-6">
+          {cards.map((c) => (
+            <div key={c.title} className="bg-card p-8 rounded-sm ring-1 ring-border">
+              <h3 className="font-display text-xl font-medium text-foreground mb-4">
+                {c.title}
+              </h3>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                {c.body}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default WhoForSection;

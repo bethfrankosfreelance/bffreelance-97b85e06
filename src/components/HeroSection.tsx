@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import headshot from "@/assets/headshot.jpg";
 
@@ -13,24 +14,38 @@ const HeroSection = () => {
         <p className="text-sm font-body tracking-[0.35em] uppercase text-taupe mb-6 animate-fade-in-up">
           Welcome
         </p>
-        <div className="flex justify-center mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+        <div className="flex justify-center mb-8 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           <img
             src={headshot}
             alt="Beth Frankos"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg ring-4 ring-background"
           />
         </div>
-        <h1 className="text-5xl md:text-7xl font-display font-medium tracking-tight text-foreground leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
-          Launch. Grow.
+        <h1 className="text-4xl md:text-6xl font-display font-medium tracking-tight text-foreground leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
+          When growth gets messy,
           <br />
-          <span className="italic text-gold-dark">Thrive.</span>
+          <span className="italic text-gold-dark">fix the systems behind it.</span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }} />
-        <p className="font-display text-xl md:text-2xl text-foreground/80 mb-6 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-          Beth Frankos Freelance LLC
+        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          I help small businesses streamline operations, reduce bottlenecks, and create the structure needed to scale more effectively.
         </p>
-        <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-          Book a strategy session if you want clarity on your product, your positioning, or your next business move.
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+          <Link
+            to="/book"
+            className="inline-block px-8 py-3.5 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+          >
+            Book a 15-Minute Strategy Call
+          </Link>
+          <a
+            href="#services"
+            className="inline-block px-8 py-3.5 border border-primary/30 text-foreground font-body text-sm tracking-widest uppercase rounded-sm hover:bg-primary/5 transition-colors"
+          >
+            Explore Services
+          </a>
+        </div>
+        <p className="font-body text-sm text-muted-foreground/80 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+          For business owners who are juggling too much, losing time to inefficient processes, or trying to grow without the systems to support it.
         </p>
       </div>
     </section>
