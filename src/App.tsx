@@ -31,6 +31,21 @@ const ScrollToRoutePosition = () => {
   return null;
 };
 
+const GtmRouteTracker = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pageview",
+        page: pathname,
+      });
+    }
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -38,6 +53,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToRoutePosition />
+        <GtmRouteTracker />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/websites" element={<Websites />} />
