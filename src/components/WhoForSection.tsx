@@ -25,7 +25,7 @@ const WhoForSection = () => {
             Built for owners who need <span className="italic">results now</span>
           </h2>
           <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">
-            If your business is growing faster than your systems can hold, this is where the fix starts.
+            If your business is growing faster than your systems can manage, this is where the fix starts.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
