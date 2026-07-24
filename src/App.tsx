@@ -1,6 +1,12 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+  }
+}
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -31,6 +37,21 @@ const ScrollToRoutePosition = () => {
   return null;
 };
 
+const GtmRouteTracker = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({
+        event: "pageview",
+        page: pathname,
+      });
+    }
+  }, [pathname]);
+
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -38,6 +59,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToRoutePosition />
+        <GtmRouteTracker />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/websites" element={<Websites />} />
